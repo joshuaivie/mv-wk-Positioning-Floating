@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: "fb_web_use_onlyregular";
+    font-family: "nytcheltenhamsmall";
     src: url("./cheltenham/cheltenham-small-normal-400-webfont.woff2") format("woff2"),
         url("./cheltenham/cheltenham-small-normal-400-webfont.woff") format("woff");
     font-weight: normal;
