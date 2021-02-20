@@ -70,6 +70,8 @@ header.page-header {
     width: 100%;
     position: fixed;
     display: block;
+    background-color: #ffffff;
+    z-index: 100;
 }
 
 header.page-header section {
@@ -297,7 +299,53 @@ header.article-header .article-meta-data .article-date {
 /*Main Article Body ============================*/
 .article-text {
     position: relative;
-    width: 600px;
+    width: 1170px;
     display: block;
     margin: auto;
+}
+
+.article-text p {
+    max-width: 600px;
+    margin: 15px auto 0;
+}
+
+.article-text figure {
+    display: block;
+    width: 600px;
+    margin: 43px auto;
+}
+
+.article-text figure iframe {
+    width: 600px;
+    height: 320px;
+}
+
+.article-text figure img {
+    width: 100%;
+}
+
+.article-text figure figcaption {
+    margin: 10px 20px 0 0;
+    color: #666;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.25rem;
+    font-family: initial;
+}
+
+.article-text figure figcaption span {
+    color: #888;
+    font-size: 85%;
+    display: block;
+}
+
+.article-text aside {
+    display: block;
+    height: 100px;
+    width: 200px;
+    background: gainsboro;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
 }
