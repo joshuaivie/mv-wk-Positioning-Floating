@@ -1,524 +1,353 @@
-
-
 @font-face {
-    font-family: 'nytcheltenhammedium';
-    src: url('cheltenham-normal-500-webfont.woff2') format('woff2'),
-         url('cheltenham-normal-500-webfont.woff') format('woff');
+    font-family: "nytcheltenhammedium";
+    src: url("./cheltenham/cheltenham-normal-500-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-normal-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'nytcheltenhambold';
-    src: url('cheltenham-normal-700-webfont.woff2') format('woff2'),
-         url('cheltenham-normal-700-webfont.woff') format('woff');
+    font-family: "nytcheltenhambold";
+    src: url("./cheltenham/cheltenham-normal-700-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-normal-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'nytcheltenhamextrabold';
-    src: url('cheltenham-normal-800-webfont.woff2') format('woff2'),
-         url('cheltenham-normal-800-webfont.woff') format('woff');
+    font-family: "nytcheltenhamextrabold";
+    src: url("./cheltenham/cheltenham-normal-800-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-normal-800-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'nytcheltenhamlightsc';
-    src: url('cheltenham-scaps-normal-300-webfont.woff2') format('woff2'),
-         url('cheltenham-scaps-normal-300-webfont.woff') format('woff');
+    font-family: "nytcheltenhamlightsc";
+    src: url("./cheltenham/cheltenham-scaps-normal-300-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-scaps-normal-300-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'fb_web_use_onlyregular';
-    src: url('cheltenham-small-italic-400-webfont.woff2') format('woff2'),
-         url('cheltenham-small-italic-400-webfont.woff') format('woff');
+    font-family: "fb_web_use_onlyregular";
+    src: url("./cheltenham/cheltenham-small-italic-400-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-small-italic-400-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'fb_web_use_onlyregular';
-    src: url('cheltenham-small-italic-700-webfont.woff2') format('woff2'),
-         url('cheltenham-small-italic-700-webfont.woff') format('woff');
+    font-family: "fb_web_use_onlyregular";
+    src: url("./cheltenham/cheltenham-small-italic-700-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-small-italic-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'fb_web_use_onlyregular';
-    src: url('cheltenham-small-normal-400-webfont.woff2') format('woff2'),
-         url('cheltenham-small-normal-400-webfont.woff') format('woff');
+    font-family: "fb_web_use_onlyregular";
+    src: url("./cheltenham/cheltenham-small-normal-400-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-small-normal-400-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'fb_web_use_onlyregular';
-    src: url('cheltenham-small-normal-700-webfont.woff2') format('woff2'),
-         url('cheltenham-small-normal-700-webfont.woff') format('woff');
+    font-family: "fb_web_use_onlyregular";
+    src: url("./cheltenham/cheltenham-small-normal-700-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-small-normal-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'nytcheltenhamwideitalic';
-    src: url('cheltenham-wide-italic-400-webfont.woff2') format('woff2'),
-         url('cheltenham-wide-italic-400-webfont.woff') format('woff');
+    font-family: "nytcheltenhamwideitalic";
+    src: url("./cheltenham/cheltenham-wide-italic-400-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-wide-italic-400-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'nytcheltenhamwideregular';
-    src: url('cheltenham-wide-normal-400-webfont.woff2') format('woff2'),
-         url('cheltenham-wide-normal-400-webfont.woff') format('woff');
+    font-family: "nytcheltenhamwideregular";
+    src: url("./cheltenham/cheltenham-wide-normal-400-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-wide-normal-400-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'nytcheltenhamcondboldxc';
-    src: url('cheltenham-xcond-normal-700-webfont.woff2') format('woff2'),
-         url('cheltenham-xcond-normal-700-webfont.woff') format('woff');
+    font-family: "nytcheltenhamcondboldxc";
+    src: url("./cheltenham/cheltenham-xcond-normal-700-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-xcond-normal-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'nytcheltenhammedium';
-    src: url('cheltenham-normal-500-webfont.woff2') format('woff2'),
-         url('cheltenham-normal-500-webfont.woff') format('woff');
+    font-family: "nytcheltenhammedium";
+    src: url("./cheltenham/cheltenham-normal-500-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-normal-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*! Generated by Font Squirrel (https://www.fontsquirrel.com) on February 16, 2021 */
 
-
-
 @font-face {
-    font-family: 'nytcheltenhamcondlight';
-    src: url('cheltenham-cond-normal-300-webfont.woff2') format('woff2'),
-         url('cheltenham-cond-normal-300-webfont.woff') format('woff');
+    font-family: "nytcheltenhamcondlight";
+    src: url("./cheltenham/cheltenham-cond-normal-300-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-cond-normal-300-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhamcondmedium';
-    src: url('cheltenham-cond-normal-500-webfont.woff2') format('woff2'),
-         url('cheltenham-cond-normal-500-webfont.woff') format('woff');
+    font-family: "nytcheltenhamcondmedium";
+    src: url("./cheltenham/cheltenham-cond-normal-500-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-cond-normal-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhamcondbold';
-    src: url('cheltenham-cond-normal-700-webfont.woff2') format('woff2'),
-         url('cheltenham-cond-normal-700-webfont.woff') format('woff');
+    font-family: "nytcheltenhamcondbold";
+    src: url("./cheltenham/cheltenham-cond-normal-700-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-cond-normal-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhamextralightital';
-    src: url('cheltenham-italic-200-webfont.woff2') format('woff2'),
-         url('cheltenham-italic-200-webfont.woff') format('woff');
+    font-family: "nytcheltenhamextralightital";
+    src: url("./cheltenham/cheltenham-italic-200-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-italic-200-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhamlightitalic';
-    src: url('cheltenham-italic-300-webfont.woff2') format('woff2'),
-         url('cheltenham-italic-300-webfont.woff') format('woff');
+    font-family: "nytcheltenhamlightitalic";
+    src: url("./cheltenham/cheltenham-italic-300-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-italic-300-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhambookitalic';
-    src: url('cheltenham-italic-400-webfont.woff2') format('woff2'),
-         url('cheltenham-italic-400-webfont.woff') format('woff');
+    font-family: "nytcheltenhambookitalic";
+    src: url("./cheltenham/cheltenham-italic-400-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-italic-400-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhammediumitalic';
-    src: url('cheltenham-italic-500-webfont.woff2') format('woff2'),
-         url('cheltenham-italic-500-webfont.woff') format('woff');
+    font-family: "nytcheltenhammediumitalic";
+    src: url("./cheltenham/cheltenham-italic-500-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-italic-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhambolditalic';
-    src: url('cheltenham-italic-700-webfont.woff2') format('woff2'),
-         url('cheltenham-italic-700-webfont.woff') format('woff');
+    font-family: "nytcheltenhambolditalic";
+    src: url("./cheltenham/cheltenham-italic-700-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-italic-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhamextraboldital';
-    src: url('cheltenham-italic-800-webfont.woff2') format('woff2'),
-         url('cheltenham-italic-800-webfont.woff') format('woff');
+    font-family: "nytcheltenhamextraboldital";
+    src: url("./cheltenham/cheltenham-italic-800-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-italic-800-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhamextralight';
-    src: url('cheltenham-normal-200-webfont.woff2') format('woff2'),
-         url('cheltenham-normal-200-webfont.woff') format('woff');
+    font-family: "nytcheltenhamextralight";
+    src: url("./cheltenham/cheltenham-normal-200-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-normal-200-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhamlight';
-    src: url('cheltenham-normal-300-webfont.woff2') format('woff2'),
-         url('cheltenham-normal-300-webfont.woff') format('woff');
+    font-family: "nytcheltenhamlight";
+    src: url("./cheltenham/cheltenham-normal-300-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-normal-300-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytcheltenhambook';
-    src: url('cheltenham-normal-400-webfont.woff2') format('woff2'),
-         url('cheltenham-normal-400-webfont.woff') format('woff');
+    font-family: "nytcheltenhambook";
+    src: url("./cheltenham/cheltenham-normal-400-webfont.woff2") format("woff2"),
+        url("./cheltenham/cheltenham-normal-400-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
-    font-family: 'nytfranklinsemibold';
-    src: url('franklin-normal-600-webfont.woff2') format('woff2'),
-         url('franklin-normal-600-webfont.woff') format('woff');
+    font-family: "nytfranklinsemibold";
+    src: url("./franklin/franklin-normal-600-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-normal-600-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinbold';
-    src: url('franklin-normal-700-webfont.woff2') format('woff2'),
-         url('franklin-normal-700-webfont.woff') format('woff');
+    font-family: "nytfranklinbold";
+    src: url("./franklin/franklin-normal-700-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-normal-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinextrabold';
-    src: url('franklin-normal-800-webfont.woff2') format('woff2'),
-         url('franklin-normal-800-webfont.woff') format('woff');
+    font-family: "nytfranklinextrabold";
+    src: url("./franklin/franklin-normal-800-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-normal-800-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinheadline';
-    src: url('franklin-normal-900-webfont.woff2') format('woff2'),
-         url('franklin-normal-900-webfont.woff') format('woff');
+    font-family: "nytfranklinheadline";
+    src: url("./franklin/franklin-normal-900-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-normal-900-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 @font-face {
-    font-family: 'nytfranklincwmedium';
-    src: url('franklin-cword-normal-500-webfont.woff2') format('woff2'),
-         url('franklin-cword-normal-500-webfont.woff') format('woff');
+    font-family: "nytfranklincwmedium";
+    src: url("./franklin/franklin-cword-normal-500-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-cword-normal-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinlightitalic';
-    src: url('franklin-italic-300-webfont.woff2') format('woff2'),
-         url('franklin-italic-300-webfont.woff') format('woff');
+    font-family: "nytfranklinlightitalic";
+    src: url("./franklin/franklin-italic-300-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-italic-300-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinmediumitalic';
-    src: url('franklin-italic-500-webfont.woff2') format('woff2'),
-         url('franklin-italic-500-webfont.woff') format('woff');
+    font-family: "nytfranklinmediumitalic";
+    src: url("./franklin/franklin-italic-500-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-italic-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinsemibolditalic';
-    src: url('franklin-italic-600-webfont.woff2') format('woff2'),
-         url('franklin-italic-600-webfont.woff') format('woff');
+    font-family: "nytfranklinsemibolditalic";
+    src: url("./franklin/franklin-italic-600-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-italic-600-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinbolditalic';
-    src: url('franklin-italic-700-webfont.woff2') format('woff2'),
-         url('franklin-italic-700-webfont.woff') format('woff');
+    font-family: "nytfranklinbolditalic";
+    src: url("./franklin/franklin-italic-700-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-italic-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinextrabolditalic';
-    src: url('franklin-italic-800-webfont.woff2') format('woff2'),
-         url('franklin-italic-800-webfont.woff') format('woff');
+    font-family: "nytfranklinextrabolditalic";
+    src: url("./franklin/franklin-italic-800-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-italic-800-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinheadlineitalic';
-    src: url('franklin-italic-900-webfont.woff2') format('woff2'),
-         url('franklin-italic-900-webfont.woff') format('woff');
+    font-family: "nytfranklinheadlineitalic";
+    src: url("./franklin/franklin-italic-900-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-italic-900-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinlight';
-    src: url('franklin-normal-300-webfont.woff2') format('woff2'),
-         url('franklin-normal-300-webfont.woff') format('woff');
+    font-family: "nytfranklinlight";
+    src: url("./franklin/franklin-normal-300-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-normal-300-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinmedium';
-    src: url('franklin-normal-500-webfont.woff2') format('woff2'),
-         url('franklin-normal-500-webfont.woff') format('woff');
+    font-family: "nytfranklinmedium";
+    src: url("./franklin/franklin-normal-500-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-normal-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytfranklinsemibold';
-    src: url('franklin-normal-600-webfont.woff2') format('woff2'),
-         url('franklin-normal-600-webfont.woff') format('woff');
+    font-family: "nytfranklinsemibold";
+    src: url("./franklin/franklin-normal-600-webfont.woff2") format("woff2"),
+        url("./franklin/franklin-normal-600-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 @font-face {
-    font-family: 'nytimperialitalic';
-    src: url('imperial-italic-500-webfont.woff2') format('woff2'),
-         url('imperial-italic-500-webfont.woff') format('woff');
+    font-family: "nytimperialitalic";
+    src: url("imperial-italic-500-webfont.woff2") format("woff2"),
+        url("imperial-italic-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytimperialsemibolditalic';
-    src: url('imperial-italic-600-webfont.woff2') format('woff2'),
-         url('imperial-italic-600-webfont.woff') format('woff');
+    font-family: "nytimperialsemibolditalic";
+    src: url("imperial-italic-600-webfont.woff2") format("woff2"),
+        url("imperial-italic-600-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytimperialbolditalic';
-    src: url('imperial-italic-700-webfont.woff2') format('woff2'),
-         url('imperial-italic-700-webfont.woff') format('woff');
+    font-family: "nytimperialbolditalic";
+    src: url("imperial-italic-700-webfont.woff2") format("woff2"),
+        url("imperial-italic-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytimperialregular';
-    src: url('imperial-normal-500-webfont.woff2') format('woff2'),
-         url('imperial-normal-500-webfont.woff') format('woff');
+    font-family: "nytimperialregular";
+    src: url("imperial-normal-500-webfont.woff2") format("woff2"),
+        url("imperial-normal-500-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytimperialsemibold';
-    src: url('imperial-normal-600-webfont.woff2') format('woff2'),
-         url('imperial-normal-600-webfont.woff') format('woff');
+    font-family: "nytimperialsemibold";
+    src: url("imperial-normal-600-webfont.woff2") format("woff2"),
+        url("imperial-normal-600-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
-    font-family: 'nytimperialbold';
-    src: url('imperial-normal-700-webfont.woff2') format('woff2'),
-         url('imperial-normal-700-webfont.woff') format('woff');
+    font-family: "nytimperialbold";
+    src: url("imperial-normal-700-webfont.woff2") format("woff2"),
+        url("imperial-normal-700-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
-
