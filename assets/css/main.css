@@ -189,6 +189,10 @@ header.page-header section .header-group.logo-main {
   transform: translateY(-50%);
 }
 
+nav.footer-nav header .footer-logo svg {
+  height: 100%;
+}
+
 header.page-header section .header-group.logo-main svg {
   height: 100%;
 }
@@ -319,8 +323,7 @@ header.article-header {
 header.article-header .article-title-text {
   width: 60%;
   margin: 0 auto 20px;
-  font-family: "nytcheltenhambolditalic", georgia, "times new roman", times,
-    serif;
+  font-family: "nytcheltenhambolditalic", georgia, "times new roman", times, serif;
   font-size: 40px;
 }
 
@@ -377,10 +380,54 @@ section.theory-of-inflation footer p {
   padding: 15px 0;
 }
 
-header.article-header .article-meta-data .article-author p {
+footer.page-footer nav ul li a {
+  color: #666;
+  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
+  padding: 10px 0;
+  white-space: nowrap;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.article-footer .article-version ul li a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
+footer.main-footer .right-group h4 a {
+  font-family: "nytcheltenhammedium", georgia, "times new roman", times, serif;
+  font-weight: initial;
+  font-size: 18.75px;
+  line-height: 24px;
+  color: #121212;
+}
+
+footer.main-footer section .section-items article a {
+  position: relative;
+  align-self: flex-start;
+  color: rgb(50, 104, 145);
+  font-size: 14px;
   font-family: "nytfranklinbold", helvetica, arial, sans-serif;
-  color: #333;
-  font-size: 15px;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+  margin-top: auto;
+}
+
+nav.footer-nav .index-nav section ul li a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: initial;
+  height: 23px;
+  line-height: 16px;
+}
+
+footer.page-footer nav ul li a:hover {
+  text-decoration: underline;
 }
 
 header.article-header .article-meta-data .article-author p a {
@@ -388,6 +435,36 @@ header.article-header .article-meta-data .article-author p a {
   text-decoration-color: #ccc;
   margin-left: 3px;
   color: #333;
+}
+
+footer.main-footer .right-group h4 a:hover {
+  color: #666;
+}
+
+.article-footer .article-version ul li a:hover {
+  text-decoration: none;
+}
+
+nav.footer-nav .index-nav .subscribe-links ul li a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  height: 23px;
+  line-height: 21px;
+}
+
+nav.footer-nav .index-nav section ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+header.article-header .article-meta-data .article-author p {
+  font-family: "nytfranklinbold", helvetica, arial, sans-serif;
+  color: #333;
+  font-size: 15px;
 }
 
 header.article-header .article-meta-data .article-author p a:hover {
@@ -457,10 +534,11 @@ section.theory-of-inflation footer::before {
   background-color: #000;
 }
 
-section.theory-of-inflation .content-box .content p+p {
+section.theory-of-inflation .content-box .content p + p {
   margin-left: 5px;
 }
 
+/* Article Footer ============================ */
 .article-footer {
   font-size: 12px;
   line-height: 16px;
@@ -475,6 +553,11 @@ section.theory-of-inflation .content-box .content p+p {
   margin-bottom: 16px;
 }
 
+footer.page-footer nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
 .article-footer .article-version ul {
   display: inline-block;
   list-style: none;
@@ -483,15 +566,6 @@ section.theory-of-inflation .content-box .content p+p {
 .article-footer .article-version ul li {
   display: inline-block;
   line-height: 12px;
-}
-
-.article-footer .article-version ul li a {
-  color: rgb(102, 102, 102);
-  text-decoration: underline;
-}
-
-.article-footer .article-version ul li a:hover {
-  text-decoration: none;
 }
 
 .article-footer .article-version ul li::after {
@@ -532,6 +606,7 @@ section.theory-of-inflation .content-box .content p+p {
   box-sizing: border-box;
 }
 
+/* Main Article Footer  ============================ */
 footer.main-footer {
   display: flex;
   width: 1200px;
@@ -557,6 +632,17 @@ footer.main-footer section .section-title {
   display: flex;
   justify-content: space-between;
   padding: 17px 0;
+}
+
+nav.footer-nav .index-nav h3 {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-family: "nytfranklinbold", helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 150px;
 }
 
 footer.main-footer section .section-title h3 {
@@ -648,17 +734,6 @@ footer.main-footer section .section-items article .text-content p {
   margin-bottom: 10px;
 }
 
-footer.main-footer section .section-items article a {
-  position: relative;
-  align-self: flex-start;
-  color: rgb(50, 104, 145);
-  font-size: 14px;
-  font-family: "nytfranklinbold", helvetica, arial, sans-serif;
-  line-height: 14px;
-  letter-spacing: 0.2px;
-  margin-top: auto;
-}
-
 footer.main-footer .right-group {
   display: flex;
   flex-direction: column;
@@ -669,18 +744,6 @@ footer.main-footer .right-group {
 footer.main-footer .right-group h4 {
   padding: 15px 0;
   border-top: 1px solid rgb(226, 226, 226);
-}
-
-footer.main-footer .right-group h4 a {
-  font-family: "nytcheltenhammedium", georgia, "times new roman", times, serif;
-  font-weight: initial;
-  font-size: 18.75px;
-  line-height: 24px;
-  color: #121212;
-}
-
-footer.main-footer .right-group h4 a:hover {
-  color: #666;
 }
 
 footer.main-footer section .section-items article.article-snippet {
@@ -701,7 +764,7 @@ footer.main-footer section .section-items article.article-snippet figure img {
 }
 
 footer.main-footer section .section-items article.article-snippet figure figcaption {
-  font-family: "nytcheltenhamsmall", georgia, "times new roman";
+  font-family: "nytcheltenhamsmall", georgia, "times new roman", times, serif;
   font-size: 10px;
   text-align: right;
   color: rgb(153, 153, 153);
@@ -724,6 +787,7 @@ footer.main-footer section .section-items article.article-snippet span {
   color: rgb(153, 153, 153);
 }
 
+/* Page Footer Index Navigation  ============================ */
 nav.footer-nav {
   margin: 25px auto 10px;
   max-width: 1200px;
@@ -753,10 +817,6 @@ nav.footer-nav header .footer-logo {
   display: inline-block;
 }
 
-nav.footer-nav header .footer-logo svg {
-  height: 100%;
-}
-
 nav.footer-nav header .go-home {
   padding: 10px 0;
   color: rgb(86, 123, 149);
@@ -777,53 +837,13 @@ nav.footer-nav .index-nav section {
   flex: 1 1 0%;
 }
 
-nav.footer-nav .index-nav h3 {
-  color: rgb(51, 51, 51);
-  font-size: 13px;
-  font-family: "nytfranklinbold", helvetica, arial, sans-serif;
-  height: 25px;
-  line-height: 15px;
-  margin: 0;
-  text-transform: uppercase;
-  width: 150px;
-}
-
-nav.footer-nav .index-nav section ul li a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
-  text-decoration: none;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 14px;
-  font-weight: initial;
-  height: 23px;
-  line-height: 16px;
-}
-
-nav.footer-nav .index-nav section ul li a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 nav.footer-nav .index-nav .subscribe-links {
   border-left: 1px solid rgb(226, 226, 226);
   flex: 1 1 0%;
   padding-left: 15px;
 }
 
-nav.footer-nav .index-nav .subscribe-links ul li a {
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 11px;
-  height: 23px;
-  line-height: 21px;
-}
-
-nav.footer-nav .index-nav .subscribe-links ul.small-list+ul.small-list {
+nav.footer-nav .index-nav .subscribe-links ul.small-list + ul.small-list {
   margin: 2px 0 0;
   padding: 10px 0 0;
   border-top: 1px solid rgb(226, 226, 226);
@@ -841,7 +861,7 @@ nav.footer-nav .index-nav .subscribe-links ul.bold-links li a {
   font-weight: 700;
   height: 25px;
   line-height: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 nav.footer-nav .index-nav .subscribe-links ul.bold-links li a svg {
@@ -852,6 +872,7 @@ nav.footer-nav .index-nav .subscribe-links ul.bold-links li a svg {
   vertical-align: middle;
 }
 
+/* Page Footer  ============================ */
 footer.page-footer {
   width: 1200px;
   margin: 0 auto;
@@ -861,22 +882,4 @@ footer.page-footer {
 footer.page-footer nav {
   border-top: 1px solid #ebebeb;
   padding: 10px 20px 0;
-}
-
-footer.page-footer nav ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer.page-footer nav ul li a {
-  color: #666;
-  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
-  padding: 10px 0;
-  white-space: nowrap;
-  font-size: 11px;
-  line-height: 11px;
-}
-
-footer.page-footer nav ul li a:hover {
-  text-decoration: underline;
 }
