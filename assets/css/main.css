@@ -53,6 +53,10 @@ main {
   overflow: hidden;
 }
 
+ul {
+  list-style: none;
+}
+
 .center-vertically {
   position: relative;
   top: 50%;
@@ -210,6 +214,7 @@ header.page-header section .header-group.right-group .user-account-buttons {
   border: 1px solid #326891;
   color: #fff;
   font-size: 11px;
+  font-family: "nytfranklinsemibold", Arial, Helvetica, sans-serif;
   vertical-align: middle;
   line-height: 11px;
   border-radius: 4px;
@@ -452,7 +457,7 @@ section.theory-of-inflation footer::before {
   background-color: #000;
 }
 
-section.theory-of-inflation .content-box .content p + p {
+section.theory-of-inflation .content-box .content p+p {
   margin-left: 5px;
 }
 
@@ -511,6 +516,7 @@ section.theory-of-inflation .content-box .content p + p {
 }
 
 .article-footer .action-buttons .read-comments {
+  cursor: pointer;
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
@@ -718,8 +724,8 @@ footer.main-footer section .section-items article.article-snippet span {
   color: rgb(153, 153, 153);
 }
 
-nav.footer-nav{
-  margin: 25px auto 0;
+nav.footer-nav {
+  margin: 25px auto 10px;
   max-width: 1200px;
   display: block;
   padding: 0 3% 9px;
@@ -758,4 +764,119 @@ nav.footer-nav header .go-home {
   font-weight: 400;
   line-height: 11px;
   text-decoration: none;
+}
+
+nav.footer-nav .index-nav {
+  display: flex;
+  min-width: 600px;
+  margin-top: 10px;
+}
+
+nav.footer-nav .index-nav section {
+  display: block;
+  flex: 1 1 0%;
+}
+
+nav.footer-nav .index-nav h3 {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-family: "nytfranklinbold", helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+nav.footer-nav .index-nav section ul li a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: initial;
+  height: 23px;
+  line-height: 16px;
+}
+
+nav.footer-nav .index-nav section ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav.footer-nav .index-nav .subscribe-links {
+  border-left: 1px solid rgb(226, 226, 226);
+  flex: 1 1 0%;
+  padding-left: 15px;
+}
+
+nav.footer-nav .index-nav .subscribe-links ul li a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  height: 23px;
+  line-height: 21px;
+}
+
+nav.footer-nav .index-nav .subscribe-links ul.small-list+ul.small-list {
+  margin: 2px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+nav.footer-nav .index-nav .subscribe-links ul.bold-links li a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  white-space: nowrap;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0px;
+}
+
+nav.footer-nav .index-nav .subscribe-links ul.bold-links li a svg {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+footer.page-footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 3% 45px;
+}
+
+footer.page-footer nav {
+  border-top: 1px solid #ebebeb;
+  padding: 10px 20px 0;
+}
+
+footer.page-footer nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer.page-footer nav ul li a {
+  color: #666;
+  font-family: "nytfranklinmedium", helvetica, arial, sans-serif;
+  padding: 10px 0;
+  white-space: nowrap;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+footer.page-footer nav ul li a:hover {
+  text-decoration: underline;
 }
