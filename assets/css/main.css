@@ -717,3 +717,45 @@ footer.main-footer section .section-items article.article-snippet span {
   line-height: 20px;
   color: rgb(153, 153, 153);
 }
+
+nav.footer-nav{
+  margin: 25px auto 0;
+  max-width: 1200px;
+  display: block;
+  padding: 0 3% 9px;
+}
+
+nav.footer-nav::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+nav.footer-nav header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav.footer-nav header .footer-logo {
+  height: 26px;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+nav.footer-nav header .footer-logo svg {
+  height: 100%;
+}
+
+nav.footer-nav header .go-home {
+  padding: 10px 0;
+  color: rgb(86, 123, 149);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
