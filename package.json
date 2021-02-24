@@ -1,0 +1,32 @@
+{
+  "name": "mv-wk1_positioning-floating",
+  "version": "1.0.0",
+  "description": "A project that explores using various css positioning techniques (float, flex and grid).",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaivie/mv-wk1_Positioning-Floating.git"
+  },
+  "keywords": [
+    "Flex-Box",
+    "CSS Grid",
+    "Floating-Elements"
+  ],
+  "author": "Joshua Ivie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuaivie/mv-wk1_Positioning-Floating/issues"
+  },
+  "homepage": "https://github.com/joshuaivie/mv-wk1_Positioning-Floating#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "hint": "^6.0.7",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
